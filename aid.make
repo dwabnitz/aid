@@ -1,5 +1,5 @@
-api = 2
 core = 7.x
+api = 2
 
 
 ; === Contrib projects with official releases ========================================================================
@@ -144,19 +144,19 @@ projects[token][subdir] = contrib
 
 ; Automatic generation of node titles according to rules (can use fields data)
 ;projects[auto_nodetitle][version] = 1.0-alpha1
-:projects[auto_nodetitle][subdir] = "contrib"
+;projects[auto_nodetitle][subdir] = "contrib"
 
 ; Interface to advanced search frame-work Apache Lucene/Solr
 ;projects[apachesolr][version] = 1.0-beta5
-:projects[apachesolr][subdir] = "contrib"
+;projects[apachesolr][subdir] = "contrib"
 
 ; Make file attachments searchable using Apache Tika
 ;projects[apachesolr_attachments][version] = 1.x-dev
-:projects[apachesolr_attachments][subdir] = "contrib"
+;projects[apachesolr_attachments][subdir] = "contrib"
 
 ; Add better input format support.
 ;projects[better_formats][version] = 1.x-dev
-:projects[better_formats][subdir] = "contrib"
+;projects[better_formats][subdir] = "contrib"
 
 ; CAPTCHA solution for web forms
 ;projects[captcha][version] = 1.0-alpha3
@@ -261,8 +261,8 @@ projects[token][subdir] = contrib
 ;projects[admin_menu][subdir] = contrib
 
 ;projects[apachesolr_biblio][version] = 1.x-dev
-:projects[apachesolr_biblio][subdir] = "contrib"
-:projects[apachesolr_biblio][location] = "http://drupal.org/files/issues/apachesolr_biblio-D7.tar_.gz"
+;projects[apachesolr_biblio][subdir] = "contrib"
+;projects[apachesolr_biblio][location] = "http://drupal.org/files/issues/apachesolr_biblio-D7.tar_.gz"
 
 ; Allows users to add meta tags, e.g. keywords or description. Fresh-start version of Nodewords module. No code yet.
 ;projects[metatags][version] = ??
