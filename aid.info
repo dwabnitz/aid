@@ -1,0 +1,166 @@
+name = AID
+description = Academic Institution Distribution
+
+version = 7.x-dev
+core = 7.x
+
+
+; Core
+
+;; Essentials
+dependencies[] = block
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = dblog
+dependencies[] = image
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = toolbar
+dependencies[] = overlay
+dependencies[] = field
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+
+;; Optional
+;dependencies[] = book
+;dependencies[] = comment
+;dependencies[] = contact
+;dependencies[] = syslog
+;dependencies[] = statistics
+
+
+; Contrib
+
+;; Essentials
+dependencies[] = advanced_help
+dependencies[] = biblio
+;dependencies[] = calendar
+;dependencies[] = calendar_ical
+;dependencies[] = calendar_multiday
+; context version is defined by buildkit
+;dependencies[] = context
+;dependencies[] = context_ui
+; ctools version is defined by buildkit
+dependencies[] = ctools
+dependencies[] = date
+dependencies[] = date_api
+;dependencies[] = date_views
+; devel version is defined by buildkit
+dependencies[] = devel
+;dependencies[] = ds
+;dependencies[] = ds_extras
+;dependencies[] = ds_search
+;dependencies[] = email
+; features version is defined by buildkit
+dependencies[] = features
+dependencies[] = field_group
+;dependencies[] = field_permissions
+;dependencies[] = file_aliases
+;dependencies[] = filefield
+;dependencies[] = filefield_paths
+;dependencies[] = imagecache
+;dependencies[] = imagefield
+;dependencies[] = libraries
+;dependencies[] = link
+;dependencies[] = node_reference
+;dependencies[] = nodeconnect
+;dependencies[] = options_element
+;dependencies[] = panels
+dependencies[] = pathauto
+;dependencies[] = plupload
+; strongarm version is defined by buildkit
+dependencies[] = strongarm
+dependencies[] = token
+;dependencies[] = transliteration
+;dependencies[] = user_reference
+; views version is defined by buildkit
+dependencies[] = views
+dependencies[] = views_ui
+
+;; Optional
+;dependencies[] = addthis
+; admin version is defined by buildkit
+;dependencies[] = admin
+;dependencies[] = auto_nodetitle
+;dependencies[] = apachesolr
+;dependencies[] = apachesolr_attachments
+;dependencies[] = boxes
+;dependencies[] = captcha
+;dependencies[] = coder
+;dependencies[] = colorbox
+;dependencies[] = conditional_styles
+;dependencies[] = comment_notify
+; diff version is defined by buildkit
+;dependencies[] = diff
+;dependencies[] = elements
+;dependencies[] = entity
+;dependencies[] = entitycache
+;dependencies[] = entity_metadata
+;dependencies[] = follow
+;dependencies[] = google_analytics
+;dependencies[] = htmlpurifier
+;dependencies[] = nodeblock
+;dependencies[] = nodequeue
+; openid version is defined by buildkit
+;dependencies[] = openid
+; openidadmin version is defined by buildkit
+;dependencies[] = openidadmin
+; password policy is an openpublic custom module
+;dependencies[] = password_policy
+;dependencies[] = profile2
+;dependencies[] = recaptcha
+;dependencies[] = securepages
+;dependencies[] = stringoverrides
+;dependencies[] = twitter_pull
+;dependencies[] = views_content
+;dependencies[] = xmlsitemap
+
+;; Media Package (preferred for media handling but not yet stable)
+;dependencies[] = media
+;dependencies[] = mediaelement
+;; Bug with install order :( media_browser_plus runs before taxonomy
+;dependencies[] = media_browser_plus
+;dependencies[] = media_gallery
+;dependencies[] = media_internet
+;dependencies[] = media_youtube
+;dependencies[] = styles
+;dependencies[] = file_styles
+;dependencies[] = plupload
+;dependencies[] = multiform
+
+;; Entity relationships (the future for handling entity relationships; upgrade path from references is promised)
+;dependencies[] = relation
+;dependencies[] = relation_dropzone
+;dependencies[] = relation_dummy_field
+
+
+
+; Custom
+
+
+; Features
+
+
+; Files
+;files[] = rid.profile
+
+
+; Stylesheets
+;stylesheets[all][] = css/menu.css
+
+
+; Scripts
+;scripts[] = js/menu.js
+
+
+
