@@ -22,7 +22,7 @@ dependencies[] = path
 dependencies[] = taxonomy
 dependencies[] = search
 dependencies[] = shortcut
-dependencies[] = toolbar
+;dependencies[] = toolbar
 dependencies[] = overlay
 dependencies[] = field
 dependencies[] = field_ui
@@ -40,49 +40,57 @@ dependencies[] = rdf
 ; Contrib
 
 ;; Essentials
+dependencies[] = admin_devel
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
 dependencies[] = advanced_help
 dependencies[] = biblio
-;dependencies[] = calendar
-;dependencies[] = calendar_ical
-;dependencies[] = calendar_multiday
-;dependencies[] = context
-;dependencies[] = context_ui
+dependencies[] = bibtexParse
+dependencies[] = calendar
+dependencies[] = calendar_ical
+dependencies[] = calendar_multiday
+dependencies[] = context
+dependencies[] = context_ui
 dependencies[] = ctools
+dependencies[] = ctools_access_ruleset
 dependencies[] = date
 dependencies[] = date_api
-;dependencies[] = date_views
+dependencies[] = date_views
 dependencies[] = devel
-;dependencies[] = ds
-;dependencies[] = ds_extras
-;dependencies[] = ds_search
-;dependencies[] = email
+dependencies[] = devel_generate
+dependencies[] = ds
+dependencies[] = ds_extras
+dependencies[] = ds_search
+dependencies[] = email
 dependencies[] = features
 dependencies[] = field_group
-;dependencies[] = field_permissions
-;dependencies[] = file_aliases
-;dependencies[] = filefield
-;dependencies[] = filefield_paths
-;dependencies[] = imagecache
-;dependencies[] = imagefield
-;dependencies[] = libraries
-;dependencies[] = link
-;dependencies[] = node_reference
-;dependencies[] = nodeconnect
-;dependencies[] = options_element
-;dependencies[] = panels
+dependencies[] = field_permissions
+dependencies[] = file_aliases
+dependencies[] = filefield
+dependencies[] = filefield_paths
+dependencies[] = imagecache
+dependencies[] = imagefield
+dependencies[] = libraries
+dependencies[] = link
+dependencies[] = node_reference
+dependencies[] = nodeconnect
+dependencies[] = options_element
+dependencies[] = page_manager
+dependencies[] = panels
 dependencies[] = pathauto
-;dependencies[] = plupload
+dependencies[] = plupload
 dependencies[] = strongarm
 dependencies[] = token
-;dependencies[] = transliteration
-;dependencies[] = user_reference
+dependencies[] = transliteration
+dependencies[] = user_reference
 dependencies[] = views
+dependencies[] = views_content
 dependencies[] = views_ui
 
 ;; Optional
 ;dependencies[] = addthis
 ;dependencies[] = admin
-;dependencies[] = auto_nodetitle
+dependencies[] = auto_nodetitle
 ;dependencies[] = apachesolr
 ;dependencies[] = apachesolr_attachments
 ;dependencies[] = boxes
@@ -93,9 +101,9 @@ dependencies[] = views_ui
 ;dependencies[] = comment_notify
 ;dependencies[] = diff
 ;dependencies[] = elements
-;dependencies[] = entity
-;dependencies[] = entitycache
-;dependencies[] = entity_metadata
+dependencies[] = entity
+dependencies[] = entitycache
+dependencies[] = entity_metadata
 ;dependencies[] = follow
 ;dependencies[] = google_analytics
 ;dependencies[] = htmlpurifier
@@ -110,21 +118,21 @@ dependencies[] = views_ui
 ;dependencies[] = securepages
 ;dependencies[] = stringoverrides
 ;dependencies[] = twitter_pull
-;dependencies[] = views_content
+dependencies[] = views_content
 ;dependencies[] = xmlsitemap
 
 ;; Media Package (preferred for media handling but not yet stable)
-;dependencies[] = media
-;dependencies[] = mediaelement
+dependencies[] = media
+dependencies[] = mediaelement
 ;; Bug with install order :( media_browser_plus runs before taxonomy
-;dependencies[] = media_browser_plus
-;dependencies[] = media_gallery
-;dependencies[] = media_internet
-;dependencies[] = media_youtube
-;dependencies[] = styles
-;dependencies[] = file_styles
-;dependencies[] = plupload
-;dependencies[] = multiform
+dependencies[] = media_browser_plus
+dependencies[] = media_gallery
+dependencies[] = media_internet
+dependencies[] = media_youtube
+dependencies[] = styles
+dependencies[] = file_styles
+dependencies[] = plupload
+dependencies[] = multiform
 
 ;; Entity relationships (the future for handling entity relationships; upgrade path from references is promised)
 ;dependencies[] = relation
@@ -140,7 +148,7 @@ dependencies[] = views_ui
 
 
 ; Files
-;files[] = rid.profile
+files[] = aid.profile
 
 
 ; Stylesheets

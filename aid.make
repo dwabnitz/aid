@@ -26,8 +26,8 @@ projects[features][subdir] = contrib
 projects[openidadmin][version] = 1.0
 projects[openidadmin][subdir] = contrib
 
-;projects[panels][version] = 3.0-alpha3
-;projects[panels][subdir] = contrib
+projects[panels][version] = 3.0-alpha3
+projects[panels][subdir] = contrib
 
 projects[strongarm][version] = 2.0-beta2
 projects[strongarm][subdir] = contrib
@@ -46,91 +46,91 @@ projects[biblio][version] = 1.x-dev
 projects[biblio][subdir] = contrib
 
 ; Views plugin to display views containing dates as Calendars.
-;projects[calendar][version] = 2.0-alpha1
-;projects[calendar][subdir] = contrib
+projects[calendar][version] = 2.0-alpha1
+projects[calendar][subdir] = contrib
 
 ; Date API that can be used by other modules.
 projects[date][version] = 2.0-alpha3
 projects[date][subdir] = contrib
 
-;projects[ds][version] = 1.0
-;projects[ds][subdir] = contrib
+projects[ds][version] = 1.0
+projects[ds][subdir] = contrib
 
 ; Defines simple email field type.
-;projects[email][version] = 1.0-beta1
-;projects[email][subdir] = contrib
+projects[email][version] = 1.0-beta1
+projects[email][subdir] = contrib
 
 projects[field_group][version] = 1.0-rc2
 projects[field_group][subdir] = contrib
 
-;projects[field_permissions][version] = 1.0-alpha1
-;projects[field_permissions][subdir] = contrib
+projects[field_permissions][version] = 1.0-alpha1
+projects[field_permissions][subdir] = contrib
 
-;projects[file_aliases][version] = 1.x-dev
-;projects[file_aliases][subdir] = contrib
+projects[file_aliases][version] = 1.x-dev
+projects[file_aliases][subdir] = contrib
 
-;projects[filefield_paths][version] = 1.x-dev
-;projects[filefield_paths][subdir] = contrib
+projects[filefield_paths][version] = 1.x-dev
+projects[filefield_paths][subdir] = contrib
 
-;projects[flag][version] = 2.0-beta5
-;projects[flag][subdir] = contrib
+projects[flag][version] = 2.0-beta5
+projects[flag][subdir] = contrib
 
 ; Common theme library functionality.
-;projects[libraries][version] = 1.0
-;projects[libraries][subdir] = contrib
+projects[libraries][version] = 1.0
+projects[libraries][subdir] = contrib
 
 ; Defines simple link field types.
-;projects[link][version] = 1.0-alpha3
-;projects[link][subdir] = contrib
+projects[link][version] = 1.0-alpha3
+projects[link][subdir] = contrib
 
-;projects[media][version] = 1.0-beta4
-;projects[media][subdir] = contrib
+projects[media][version] = 1.0-beta4
+projects[media][subdir] = contrib
 
-;projects[mediaelement][version] = 1.0
-;projects[mediaelement][subdir] = contrib
+projects[mediaelement][version] = 1.0
+projects[mediaelement][subdir] = contrib
 
-;projects[media_browser_plus][version] = 1.0-beta2
-;projects[media_browser_plus][subdir] = contrib
+projects[media_browser_plus][version] = 1.0-beta2
+projects[media_browser_plus][subdir] = contrib
 
-;projects[media_flickr][version] = 1.x-dev
-;projects[media_flickr][subdir] = contrib
+projects[media_flickr][version] = 1.x-dev
+projects[media_flickr][subdir] = contrib
 
-;projects[media_gallery][version] = 1.0-beta4
-;projects[media_gallery][subdir] = contrib
+projects[media_gallery][version] = 1.0-beta4
+projects[media_gallery][subdir] = contrib
 
-;projects[media_youtube][version] = 1.0-alpha4
-;projects[media_youtube][subdir] = contrib
+projects[media_youtube][version] = 1.0-alpha4
+projects[media_youtube][subdir] = contrib
 
-;projects[multiform][version] = 1.0-beta2
-;projects[multiform][subdir] = contrib
+projects[multiform][version] = 1.0-beta2
+projects[multiform][subdir] = contrib
 
-;projects[options_element][version] = 1.4
-;projects[options_element][subdir] = contrib
+projects[options_element][version] = 1.4
+projects[options_element][subdir] = contrib
 
 ; Provides a mechanism for modules to automatically generate aliases for the content they manage.
 projects[pathauto][version] = 1.0-beta1
 projects[pathauto][subdir] = contrib
 
-;projects[plupload][version] = 1.0-beta2
-;projects[plupload][subdir] = contrib
+projects[plupload][version] = 1.0-beta2
+projects[plupload][subdir] = contrib
 
-;projects[references][version] = 2.0-beta3
-;projects[references][subdir] = contrib
+projects[references][version] = 2.0-beta3
+projects[references][subdir] = contrib
 
-;projects[styles][version] = 2.0-alpha5
-;projects[styles][subdir] = contrib
+projects[styles][version] = 2.0-alpha5
+projects[styles][subdir] = contrib
 
 ; Provides a shared API for replacement of textual placeholders with actual data.
 projects[token][version] = 1.0-beta1
 projects[token][subdir] = contrib
 
 ; Provides a central transliteration service to other Drupal modules, and sanitizes file names while uploading.
-;projects[transliteration][version] = 3.0-alpha
-;projects[transliteration][subdir] = contrib
+projects[transliteration][version] = 3.0-alpha
+projects[transliteration][subdir] = contrib
 
 ; Enable the use of wysiwyg editors.
-;projects[wysiwyg][version] = 2.0
-;projects[wysiwyg][subdir] = contrib
+projects[wysiwyg][version] = 2.0
+projects[wysiwyg][subdir] = contrib
 
 
 
@@ -138,13 +138,17 @@ projects[token][subdir] = contrib
 ; Optional (inclusion in profile to be decided)
 ;;;;;;
 
+; 
+projects[admin_menu][version] = 3.x-dev
+projects[admin_menu][subdir] = contrib
+
 ; Creates AddThis button as a block, to be used in themes and to node links.
 ;projects[addthis][version] = 2.1-beta1
 ;projects[addthis][subdir] = contrib
 
 ; Automatic generation of node titles according to rules (can use fields data)
-;projects[auto_nodetitle][version] = 1.0-alpha1
-;projects[auto_nodetitle][subdir] = "contrib"
+projects[auto_nodetitle][version] = 1.0-alpha1
+projects[auto_nodetitle][subdir] = "contrib"
 
 ; Interface to advanced search frame-work Apache Lucene/Solr
 ;projects[apachesolr][version] = 1.0-beta5
@@ -163,8 +167,8 @@ projects[token][subdir] = contrib
 ;projects[captcha][subdir] = contrib
 
 ; Currently the best light-box module
-;projects[colorbox][version] = 1.0-beta4
-;projects[colorbox][subdir] = contrib
+projects[colorbox][version] = 1.0-beta4
+projects[colorbox][subdir] = contrib
 
 ; Notifications for comments
 ;projects[comment_notify][version] = 1.x-dev
@@ -174,15 +178,19 @@ projects[token][subdir] = contrib
 ;projects[conditional_styles][version] = 2.0
 ;projects[conditional_styles][subdir] = contrib
 
-; 
-;projects[elements][version] = 1.2
-;projects[elements][subdir] = contrib
+; An admin tool based on CTools Page Manager module for creating custom admin pages
+projects[context_admin][version] = 1.0-rc2
+projects[context_admin][subdir] = contrib
 
-;projects[entity][version] = 1.0-beta8
-;projects[entity][subdir] = contrib
+; Repository for advanced form elements 
+projects[elements][version] = 1.2
+projects[elements][subdir] = contrib
 
-;projects[entitycache][version] = 1.0-rc2
-;projects[entitycache][subdir] = contrib
+projects[entity][version] = 1.0-beta8
+projects[entity][subdir] = contrib
+
+projects[entitycache][version] = 1.0-rc2
+projects[entitycache][subdir] = contrib
 
 ;projects[follow][version] = 1.x-dev
 ;projects[follow][subdir] = contrib
@@ -201,8 +209,8 @@ projects[token][subdir] = contrib
 ;projects[nodeblock][version] = 1.0
 ;projects[nodeblock][subdir] = contrib
 
-;projects[nodeconnect][version] = 1.0-alpha1
-;projects[nodeconnect][subdir] = contrib
+projects[nodeconnect][version] = 1.0-alpha1
+projects[nodeconnect][subdir] = contrib
 
 ;projects[nodequeue][version] = 2.x-dev
 ;projects[nodequeue][subdir] = contrib
@@ -220,6 +228,12 @@ projects[token][subdir] = contrib
 ;projects[relation][version] = 1.0-alpha2
 ;projects[relation][subdir] = contrib
 
+projects[rules][version] = 2.0-beta1
+projects[rules][subdir] = contrib
+
+projects[search_api][version] = 1.0-beta8
+projects[search_api][subdir] = contrib
+
 ;projects[securepages][version] = 1.x-dev
 ;projects[securepages][subdir] = contrib
 
@@ -229,8 +243,8 @@ projects[token][subdir] = contrib
 ;projects[twitter_pull][version] = 1.0-rc1
 ;projects[twitter_pull][subdir] = contrib
 
-;projects[views_bulk_operations][version] = 3.x-dev
-;projects[views_bulk_operations][subdir] = contrib
+projects[views_bulk_operations][version] = 3.x-dev
+projects[views_bulk_operations][subdir] = contrib
 
 ; Build webforms.
 ;projects[webform][version] = 3.9
@@ -256,9 +270,6 @@ projects[token][subdir] = contrib
 
 
 ; === Contrib projects without official releases =====================================================================
-
-;projects[admin_menu][version] = 3.x-dev
-;projects[admin_menu][subdir] = contrib
 
 ;projects[apachesolr_biblio][version] = 1.x-dev
 ;projects[apachesolr_biblio][subdir] = "contrib"
@@ -292,13 +303,17 @@ projects[token][subdir] = contrib
 
 ; === Libraries ======================================================================================================
 
-;libraries[ckeditor][download][type] = "get"
-;libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.5.3/ckeditor_3.5.3.tar.gz"
-;libraries[ckeditor][directory_name] = "ckeditor"
-;libraries[ckeditor][destination] = "libraries"
+libraries[ckeditor][download][type] = "get"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.5.3/ckeditor_3.5.3.tar.gz"
+libraries[ckeditor][directory_name] = "ckeditor"
+libraries[ckeditor][destination] = "libraries"
 
-;libraries[colorbox][download][type] = "file"
-;libraries[colorbox][download][url] = ""
+libraries[colorbox][download][type] = "file"
+libraries[colorbox][download][url] = "http://colorpowered.com/colorbox/latest"
+libraries[colorbox][directory_name] = "colorbox"
+libraries[colorbox][destination] = "libraries"
 
 ;libraries[htmlpurifier][download][type] = "file"
-;libraries[htmlpurifier][download][url] = ""
+;libraries[htmlpurifier][download][url] = "http://htmlpurifier.org/releases/htmlpurifier-4.3.0-lite.tar.gz"
+libraries[htmlpurifier][directory_name] = "htmlpurifier"
+libraries[htmlpurifier][destination] = "libraries"
