@@ -125,7 +125,7 @@ projects[token][version] = 1.0-beta1
 projects[token][subdir] = contrib
 
 ; Provides a central transliteration service to other Drupal modules, and sanitizes file names while uploading.
-projects[transliteration][version] = 3.0-alpha
+projects[transliteration][version] = 3.0-alpha1
 projects[transliteration][subdir] = contrib
 
 ; Enable the use of wysiwyg editors.
