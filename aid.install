@@ -3,7 +3,7 @@
 /**
  * Implements hook_install().
  */
-function aid_install() {
-  theme_enable(array('rubik'));
-  variable_set('theme_default', 'rubik');
-}
+// function aid_install() {
+//   theme_enable(array('rubik'));
+//   variable_set('theme_default', 'rubik');
+// }

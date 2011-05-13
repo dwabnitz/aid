@@ -1,8 +1,6 @@
 name = AID
-description = Academic Institution Distribution
-
-version = 7.x-dev
 core = 7.x
+description = Academic Institution Distribution
 
 
 ; Core
