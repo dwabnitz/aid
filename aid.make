@@ -152,7 +152,7 @@ projects[nodeblock][subdir] = contrib
 projects[nodeconnect][version] = 1.0-alpha1
 projects[nodeconnect][subdir] = contrib
 
-projects[nodequeue][version] = 2.x-dev
+projects[nodequeue][version] = 2.0-alpha1
 projects[nodequeue][subdir] = contrib
 
 projects[options_element][version] = 1.4
