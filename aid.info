@@ -7,11 +7,14 @@ description = Academic Institution Distribution
 
 ;; Essentials
 dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
 dependencies[] = contextual
 dependencies[] = dashboard
 dependencies[] = help
 dependencies[] = dblog
 dependencies[] = image
+dependencies[] = field
 dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = list
@@ -22,63 +25,69 @@ dependencies[] = path
 dependencies[] = taxonomy
 dependencies[] = search
 dependencies[] = shortcut
-;dependencies[] = toolbar
 dependencies[] = overlay
-dependencies[] = field
-dependencies[] = field_ui
-dependencies[] = file
 dependencies[] = rdf
+dependencies[] = statistics
 
 ;; Optional
 ;dependencies[] = book
-;dependencies[] = comment
 ;dependencies[] = contact
 ;dependencies[] = syslog
-;dependencies[] = statistics
+; Deactivate toolbar if admin_menu_toolbar is activated
+;dependencies[] = toolbar
 
 
 ; Contrib
 
-;; Essentials
-dependencies[] = admin_devel
-dependencies[] = admin_menu
-dependencies[] = admin_menu_toolbar
+;; Essential
+dependencies[] = addthis
 dependencies[] = advanced_help
+dependencies[] = auto_nodetitle
+;dependencies[] = apachesolr
+;dependencies[] = apachesolr_attachments
 dependencies[] = biblio
-dependencies[] = bibtexParse
+dependencies[] = biblio_bibtex
 dependencies[] = calendar
 dependencies[] = calendar_ical
 dependencies[] = calendar_multiday
+dependencies[] = comment_notify
+dependencies[] = conditional_styles
 dependencies[] = context
 dependencies[] = context_ui
+dependencies[] = context_admin
+dependencies[] = context_admin_vbo
 dependencies[] = ctools
 dependencies[] = ctools_access_ruleset
 dependencies[] = date
 dependencies[] = date_api
 dependencies[] = date_views
-dependencies[] = devel
-dependencies[] = devel_generate
+dependencies[] = defaultcontent
+dependencies[] = diff
 dependencies[] = ds
 dependencies[] = ds_extras
 dependencies[] = ds_search
 dependencies[] = email
+dependencies[] = entity
+dependencies[] = entitycache
+dependencies[] = entity_token
 dependencies[] = features
 dependencies[] = field_group
 dependencies[] = field_permissions
 dependencies[] = file_aliases
-dependencies[] = filefield
 dependencies[] = filefield_paths
-dependencies[] = imagecache
-dependencies[] = imagefield
+dependencies[] = follow
+dependencies[] = htmlpurifier
 dependencies[] = libraries
 dependencies[] = link
-dependencies[] = node_reference
+dependencies[] = nodeblock
 dependencies[] = nodeconnect
+dependencies[] = nodequeue
+dependencies[] = node_reference
 dependencies[] = options_element
 dependencies[] = page_manager
 dependencies[] = panels
 dependencies[] = pathauto
-dependencies[] = plupload
+dependencies[] = securepages
 dependencies[] = strongarm
 dependencies[] = token
 dependencies[] = transliteration
@@ -86,60 +95,54 @@ dependencies[] = user_reference
 dependencies[] = views
 dependencies[] = views_content
 dependencies[] = views_ui
+dependencies[] = wysiwyg
 
-;; Optional
-;dependencies[] = addthis
-;dependencies[] = admin
-dependencies[] = auto_nodetitle
-;dependencies[] = apachesolr
-;dependencies[] = apachesolr_attachments
-;dependencies[] = boxes
-;dependencies[] = captcha
-;dependencies[] = coder
-;dependencies[] = colorbox
-;dependencies[] = conditional_styles
-;dependencies[] = comment_notify
-;dependencies[] = diff
-;dependencies[] = elements
-dependencies[] = entity
-dependencies[] = entitycache
-dependencies[] = entity_metadata
-;dependencies[] = follow
-;dependencies[] = google_analytics
-;dependencies[] = htmlpurifier
-;dependencies[] = nodeblock
-;dependencies[] = nodequeue
-;dependencies[] = openid
-;dependencies[] = openidadmin
-; password policy is an openpublic custom module
-;dependencies[] = password_policy
-;dependencies[] = profile2
-;dependencies[] = recaptcha
-;dependencies[] = securepages
-;dependencies[] = stringoverrides
-;dependencies[] = twitter_pull
-dependencies[] = views_content
-;dependencies[] = xmlsitemap
-
-;; Media Package (preferred for media handling but not yet stable)
+;; Media handling (preferred for media handling but not yet stable)
 dependencies[] = media
 dependencies[] = mediaelement
 ;; Bug with install order :( media_browser_plus runs before taxonomy
 dependencies[] = media_browser_plus
-dependencies[] = media_gallery
+;; Media Gallery still buggy
+;dependencies[] = media_gallery
 dependencies[] = media_internet
 dependencies[] = media_youtube
+; Styles
 dependencies[] = styles
 dependencies[] = file_styles
+; Upload
 dependencies[] = plupload
 dependencies[] = multiform
 
-;; Entity relationships (the future for handling entity relationships; upgrade path from references is promised)
+;; Optional
+;dependencies[] = boxes
+;dependencies[] = colorbox
+;dependencies[] = google_analytics
+;dependencies[] = openid
+;dependencies[] = openidadmin
+;dependencies[] = stringoverrides
+;dependencies[] = twitter_pull
+;dependencies[] = xmlsitemap
+
+;; Developer
+dependencies[] = admin_devel
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+;dependencies[] = coder
+dependencies[] = devel
+dependencies[] = devel_generate
+
+;; TBD
+;dependencies[] = admin
+;dependencies[] = captcha
+;dependencies[] = recaptcha
+;dependencies[] = elements
+; password policy is an openpublic custom module
+;dependencies[] = password_policy
+;dependencies[] = profile2
+; Entity relationships (the future for handling entity relationships; upgrade path from references is promised)
 ;dependencies[] = relation
 ;dependencies[] = relation_dropzone
 ;dependencies[] = relation_dummy_field
-
-
 
 ; Custom
 
