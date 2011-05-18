@@ -308,6 +308,9 @@ projects[tao][subdir] = contrib
 
 projects[rubik][version] = 4.0-beta5
 projects[rubik][subdir] = contrib
+; Notices on admin/index
+; http://drupal.org/node/999582
+projects[rubik][patch][999582] = http://drupal.org/files/issues/999582-1_notices.patch
 
 
 
@@ -323,7 +326,12 @@ libraries[colorbox][download][url] = "http://colorpowered.com/colorbox/latest"
 libraries[colorbox][directory_name] = "colorbox"
 libraries[colorbox][destination] = "libraries"
 
-libraries[htmlpurifier][download][type] = "file"
+libraries[htmlpurifier][download][type] = "get"
 libraries[htmlpurifier][download][url] = "http://htmlpurifier.org/releases/htmlpurifier-4.3.0-lite.tar.gz"
 libraries[htmlpurifier][directory_name] = "htmlpurifier"
 libraries[htmlpurifier][destination] = "libraries"
+
+libraries[profiler][download][type] = "get"
+libraries[profiler][download][url] = http://ftp.drupal.org/files/projects/profiler-7.x-2.x-dev.tar.gz
+libraries[profiler][directory_name] = "profiler"
+libraries[profiler][destination] = "libraries"
