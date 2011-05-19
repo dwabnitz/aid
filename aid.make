@@ -185,8 +185,8 @@ projects[references][subdir] = contrib
 ;projects[securepages][version] = 1.x-dev
 ;projects[securepages][subdir] = contrib
 
-;projects[styles][version] = 2.0-alpha5
-;projects[styles][subdir] = contrib
+projects[styles][version] = 2.0-alpha5
+projects[styles][subdir] = contrib
 
 ; Provides a shared API for replacement of textual placeholders with actual data.
 ;projects[token][version] = 1.0-beta1
