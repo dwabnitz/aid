@@ -150,7 +150,7 @@ dependencies[] = devel_generate
 
 
 ; Features
-
+dependencies[] = aid_basic_profile
 
 ; Files
 files[] = aid.profile

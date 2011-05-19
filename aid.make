@@ -99,7 +99,7 @@ projects[email][subdir] = contrib
 ;projects[entitycache][version] = 1.0-rc2
 ;projects[entitycache][subdir] = contrib
 
-projects[field_group][version] = 1.0-rc2
+projects[field_group][version] = 1.x-dev
 projects[field_group][subdir] = contrib
 
 ;projects[field_permissions][version] = 1.0-alpha1
@@ -299,6 +299,10 @@ projects[admin_menu][subdir] = contrib
 
 ; === Custom features ================================================================================================
 
+; AID Base Features
+projects[aid_base_features][download][type] = "git"
+projects[aid_base_features][download][url] = "git://github.com/dwabnitz/aid_base_features.git"
+projects[aid_base_features][subdir] = features
 
 
 ; === Features from other distributions ==============================================================================
