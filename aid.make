@@ -189,8 +189,8 @@ projects[styles][version] = 2.0-alpha5
 projects[styles][subdir] = contrib
 
 ; Provides a shared API for replacement of textual placeholders with actual data.
-;projects[token][version] = 1.0-beta1
-;projects[token][subdir] = contrib
+projects[token][version] = 1.0-beta1
+projects[token][subdir] = contrib
 
 ; Provides a central transliteration service to other Drupal modules, and sanitizes file names while uploading.
 ;projects[transliteration][version] = 3.0-alpha1
@@ -305,6 +305,13 @@ projects[aid_base_features][download][type] = "git"
 projects[aid_base_features][download][url] = "git://github.com/dwabnitz/aid_base_features.git"
 projects[aid_base_features][version] = 0.3-dev
 projects[aid_base_features][subdir] = features
+
+; AID Extended Features
+projects[aid_extended_features][type] = module
+projects[aid_extended_features][download][type] = "git"
+projects[aid_extended_features][download][url] = "git://github.com/dwabnitz/aid_extended_features.git"
+projects[aid_extended_features][version] = 0.3-dev
+projects[aid_extended_features][subdir] = features
 
 
 ; === Features from other distributions ==============================================================================

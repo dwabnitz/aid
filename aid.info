@@ -91,7 +91,7 @@ dependencies[] = panels
 dependencies[] = pathauto
 ;dependencies[] = securepages
 dependencies[] = strongarm
-;dependencies[] = token
+dependencies[] = token
 ;dependencies[] = transliteration
 dependencies[] = user_reference
 dependencies[] = views
@@ -151,6 +151,7 @@ dependencies[] = devel_generate
 
 ; Features
 dependencies[] = aid_basic_profile
+dependencies[] = aid_extended_profile
 
 ; Files
 files[] = aid.profile
