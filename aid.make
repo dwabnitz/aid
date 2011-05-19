@@ -300,8 +300,10 @@ projects[admin_menu][subdir] = contrib
 ; === Custom features ================================================================================================
 
 ; AID Base Features
+projects[aid_base_features][type] = module
 projects[aid_base_features][download][type] = "git"
 projects[aid_base_features][download][url] = "git://github.com/dwabnitz/aid_base_features.git"
+projects[aid_base_features][version] = 0.3-dev
 projects[aid_base_features][subdir] = features
 
 
@@ -316,6 +318,7 @@ projects[tao][subdir] = contrib
 
 projects[rubik][version] = 4.0-beta5
 projects[rubik][subdir] = contrib
+projects[rubik][type] = "theme"
 
 
 
