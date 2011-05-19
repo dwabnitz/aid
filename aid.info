@@ -152,6 +152,7 @@ dependencies[] = devel_generate
 ; Features
 dependencies[] = aid_basic_profile
 dependencies[] = aid_extended_profile
+dependencies[] = mzes_profile
 
 ; Files
 files[] = aid.profile
