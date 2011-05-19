@@ -8,8 +8,8 @@ api = 2
 ; Site Building
 ;;;;;;
 
-projects[context][version] = 3.0-beta1
-projects[context][subdir] = contrib
+;projects[context][version] = 3.0-beta1
+;projects[context][subdir] = contrib
 
 projects[ctools][version] = 1.0-alpha4
 projects[ctools][subdir] = contrib
@@ -23,8 +23,8 @@ projects[diff][subdir] = contrib
 projects[features][version] = 1.0-beta2
 projects[features][subdir] = contrib
 
-projects[openidadmin][version] = 1.0
-projects[openidadmin][subdir] = contrib
+;projects[openidadmin][version] = 1.0
+;projects[openidadmin][subdir] = contrib
 
 projects[panels][version] = 3.0-alpha3
 projects[panels][subdir] = contrib
@@ -38,6 +38,10 @@ projects[views][subdir] = contrib
 ;;;;;;
 ; Essential
 ;;;;;;
+
+; A field module to hold postal addresses, implementing a subset of the xNAL standard.
+projects[addressfield][version] = 1.0-alpha2
+projects[addressfield][subdir] = contrib
 
 ; Creates AddThis button as a block, to be used in themes and to node links.
 projects[addthis][version] = 2.1-beta1
@@ -59,8 +63,8 @@ projects[auto_nodetitle][subdir] = "contrib"
 ;projects[apachesolr_attachments][subdir] = "contrib"
 
 ; Add better input format support.
-projects[better_formats][version] = 1.x-dev
-projects[better_formats][subdir] = "contrib"
+;projects[better_formats][version] = 1.x-dev
+;projects[better_formats][subdir] = "contrib"
 
 projects[biblio][version] = 1.x-dev
 projects[biblio][subdir] = contrib
@@ -78,43 +82,43 @@ projects[date][version] = 2.0-alpha3
 projects[date][subdir] = contrib
 
 ; Allows export of select nodes (along with attached images etc.) to a Features exportable.
-projects[defaultcontent][version] = 1.0-alpha1
-projects[defaultcontent][subdir] = contrib
+;projects[defaultcontent][version] = 1.0-alpha1
+;projects[defaultcontent][subdir] = contrib
 
 ; Allows to take full control over how content is displayed using a drag and drop interface. Add custom view modes
-projects[ds][version] = 1.0
-projects[ds][subdir] = contrib
+;projects[ds][version] = 1.0
+;projects[ds][subdir] = contrib
 
 ; Defines simple email field type.
 projects[email][version] = 1.0-beta1
 projects[email][subdir] = contrib
 
-projects[entity][version] = 1.0-beta8
-projects[entity][subdir] = contrib
+;projects[entity][version] = 1.0-beta8
+;projects[entity][subdir] = contrib
 
-projects[entitycache][version] = 1.0-rc2
-projects[entitycache][subdir] = contrib
+;projects[entitycache][version] = 1.0-rc2
+;projects[entitycache][subdir] = contrib
 
 projects[field_group][version] = 1.0-rc2
 projects[field_group][subdir] = contrib
 
-projects[field_permissions][version] = 1.0-alpha1
-projects[field_permissions][subdir] = contrib
+;projects[field_permissions][version] = 1.0-alpha1
+;projects[field_permissions][subdir] = contrib
 
-projects[file_aliases][version] = 1.x-dev
-projects[file_aliases][subdir] = contrib
+;projects[file_aliases][version] = 1.x-dev
+;projects[file_aliases][subdir] = contrib
 
-projects[filefield_paths][version] = 1.x-dev
-projects[filefield_paths][subdir] = contrib
+;projects[filefield_paths][version] = 1.x-dev
+;projects[filefield_paths][subdir] = contrib
 
-projects[flag][version] = 2.0-beta5
-projects[flag][subdir] = contrib
+;projects[flag][version] = 2.0-beta5
+;projects[flag][subdir] = contrib
 
-projects[follow][version] = 1.x-dev
-projects[follow][subdir] = contrib
+;projects[follow][version] = 1.x-dev
+;projects[follow][subdir] = contrib
 
-projects[htmlpurifier][version] = 2.x-dev
-projects[htmlpurifier][subdir] = contrib
+;projects[htmlpurifier][version] = 2.x-dev
+;projects[htmlpurifier][subdir] = contrib
 
 ; Common theme library functionality.
 projects[libraries][version] = 1.0
@@ -146,21 +150,21 @@ projects[multiform][version] = 1.0-beta2
 projects[multiform][subdir] = contrib
 
 ; allows you to specify content type(s) as being a block. Users can edit blocks without visiting block config.
-projects[nodeblock][version] = 1.0
-projects[nodeblock][subdir] = contrib
+;projects[nodeblock][version] = 1.0
+;projects[nodeblock][subdir] = contrib
 
 projects[nodeconnect][version] = 1.0-alpha1
 projects[nodeconnect][subdir] = contrib
 
-projects[nodequeue][version] = 2.0-alpha1
-projects[nodequeue][subdir] = contrib
+;projects[nodequeue][version] = 2.0-alpha1
+;projects[nodequeue][subdir] = contrib
 
-projects[options_element][version] = 1.4
-projects[options_element][subdir] = contrib
+;projects[options_element][version] = 1.4
+;projects[options_element][subdir] = contrib
 
 ; Enhanced control over the page title (in the &lt;head> tag).
-projects[page_title][version] = 2.4-beta1
-projects[page_title][subdir] = "contrib"
+;projects[page_title][version] = 2.4-beta1
+;projects[page_title][subdir] = "contrib"
 
 ; Provides a mechanism for modules to automatically generate aliases for the content they manage.
 projects[pathauto][version] = 1.0-beta1
@@ -172,32 +176,32 @@ projects[plupload][subdir] = contrib
 projects[references][version] = 2.0-beta3
 projects[references][subdir] = contrib
 
-projects[rules][version] = 2.0-beta1
-projects[rules][subdir] = contrib
+;projects[rules][version] = 2.0-beta1
+;projects[rules][subdir] = contrib
 
-projects[search_api][version] = 1.0-beta8
-projects[search_api][subdir] = contrib
+;projects[search_api][version] = 1.0-beta8
+;projects[search_api][subdir] = contrib
 
-projects[securepages][version] = 1.x-dev
-projects[securepages][subdir] = contrib
+;projects[securepages][version] = 1.x-dev
+;projects[securepages][subdir] = contrib
 
-projects[styles][version] = 2.0-alpha5
-projects[styles][subdir] = contrib
+;projects[styles][version] = 2.0-alpha5
+;projects[styles][subdir] = contrib
 
 ; Provides a shared API for replacement of textual placeholders with actual data.
-projects[token][version] = 1.0-beta1
-projects[token][subdir] = contrib
+;projects[token][version] = 1.0-beta1
+;projects[token][subdir] = contrib
 
 ; Provides a central transliteration service to other Drupal modules, and sanitizes file names while uploading.
-projects[transliteration][version] = 3.0-alpha1
-projects[transliteration][subdir] = contrib
+;projects[transliteration][version] = 3.0-alpha1
+;projects[transliteration][subdir] = contrib
 
-projects[views_bulk_operations][version] = 3.x-dev
-projects[views_bulk_operations][subdir] = contrib
+;projects[views_bulk_operations][version] = 3.x-dev
+;projects[views_bulk_operations][subdir] = contrib
 
 ; Enable the use of wysiwyg editors.
-projects[wysiwyg][version] = 2.0
-projects[wysiwyg][subdir] = contrib
+;projects[wysiwyg][version] = 2.0
+;projects[wysiwyg][subdir] = contrib
 
 
 
@@ -213,20 +217,20 @@ projects[admin_menu][subdir] = contrib
 ;projects[captcha][subdir] = contrib
 
 ; Currently the best light-box module
-projects[colorbox][version] = 1.0-beta4
-projects[colorbox][subdir] = contrib
+;projects[colorbox][version] = 1.0-beta4
+;projects[colorbox][subdir] = contrib
 
 ; Allows themes to add conditional stylesheets - i.e. for IE
-projects[conditional_styles][version] = 2.0
-projects[conditional_styles][subdir] = contrib
+;projects[conditional_styles][version] = 2.0
+;projects[conditional_styles][subdir] = contrib
 
 ; An admin tool based on CTools Page Manager module for creating custom admin pages
-projects[context_admin][version] = 1.0-rc2
-projects[context_admin][subdir] = contrib
+;projects[context_admin][version] = 1.0-rc2
+;projects[context_admin][subdir] = contrib
 
 ; Repository for advanced form elements 
-projects[elements][version] = 1.2
-projects[elements][subdir] = contrib
+;projects[elements][version] = 1.2
+;projects[elements][subdir] = contrib
 
 ; Searches for an alias of the current URL and 301 redirects if found. Stops duplicate content arising when path
 ;projects[globalredirect][version] = 1.3
@@ -261,8 +265,8 @@ projects[elements][subdir] = contrib
 
 ; === Contrib projects not enabled (included but not enabled by default) =============================================
 
-projects[coder][version] = 1.0-beta6
-projects[coder][subdir] = contrib
+;projects[coder][version] = 1.0-beta6
+;projects[coder][subdir] = contrib
 
 ; === Patched projects ===============================================================================================
 
@@ -316,22 +320,22 @@ projects[rubik][patch][999582] = http://drupal.org/files/issues/999582-1_notices
 
 ; === Libraries ======================================================================================================
 
-libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.5.3/ckeditor_3.5.3.tar.gz"
-libraries[ckeditor][directory_name] = "ckeditor"
-libraries[ckeditor][destination] = "libraries"
+;libraries[ckeditor][download][type] = "get"
+;libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.5.3/ckeditor_3.5.3.tar.gz"
+;libraries[ckeditor][directory_name] = "ckeditor"
+;libraries[ckeditor][destination] = "libraries"
 
-libraries[colorbox][download][type] = "file"
-libraries[colorbox][download][url] = "http://colorpowered.com/colorbox/latest"
-libraries[colorbox][directory_name] = "colorbox"
-libraries[colorbox][destination] = "libraries"
+;libraries[colorbox][download][type] = "file"
+;libraries[colorbox][download][url] = "http://colorpowered.com/colorbox/latest"
+;libraries[colorbox][directory_name] = "colorbox"
+;libraries[colorbox][destination] = "libraries"
 
-libraries[htmlpurifier][download][type] = "get"
-libraries[htmlpurifier][download][url] = "http://htmlpurifier.org/releases/htmlpurifier-4.3.0-lite.tar.gz"
-libraries[htmlpurifier][directory_name] = "htmlpurifier"
-libraries[htmlpurifier][destination] = "libraries"
+;libraries[htmlpurifier][download][type] = "get"
+;libraries[htmlpurifier][download][url] = "http://htmlpurifier.org/releases/htmlpurifier-4.3.0-lite.tar.gz"
+;libraries[htmlpurifier][directory_name] = "htmlpurifier"
+;libraries[htmlpurifier][destination] = "libraries"
 
-libraries[profiler][download][type] = "get"
-libraries[profiler][download][url] = http://ftp.drupal.org/files/projects/profiler-7.x-2.x-dev.tar.gz
-libraries[profiler][directory_name] = "profiler"
-libraries[profiler][destination] = "libraries"
+;libraries[profiler][download][type] = "get"
+;libraries[profiler][download][url] = http://ftp.drupal.org/files/projects/profiler-7.x-2.x-dev.tar.gz
+;libraries[profiler][directory_name] = "profiler"
+;libraries[profiler][destination] = "libraries"
