@@ -153,6 +153,9 @@ dependencies[] = devel_generate
 dependencies[] = aid_basic_profile
 dependencies[] = aid_extended_profile
 dependencies[] = mzes_profile
+dependencies[] = aid_basic_project
+dependencies[] = aid_extended_project
+dependencies[] = mzes_project
 
 ; Files
 files[] = aid.profile
