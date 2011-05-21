@@ -212,9 +212,18 @@ projects[token][subdir] = contrib
 projects[admin_menu][version] = 3.x-dev
 projects[admin_menu][subdir] = contrib
 
+; Automatically creates a main book page for content type selected in BookMadeSimple settings. 
+; This is a shortcut to create a node and click on update book outline.
+projects[BookMadeSimple][version] = 3.2
+projects[BookMadeSimple][subdir] = contrib
+
 ; CAPTCHA solution for web forms
 ;projects[captcha][version] = 1.0-alpha3
 ;projects[captcha][subdir] = contrib
+
+; syncs the node reference between two node types which have a nodereference to each other, so double editing nodes is no more needed.
+;projects[cnr][version] = 4.x-dev
+;projects[cnr][subdir] = contrib
 
 ; Currently the best light-box module
 ;projects[colorbox][version] = 1.0-beta4

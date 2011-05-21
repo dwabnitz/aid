@@ -8,6 +8,7 @@ version = 0.x-dev
 
 ;; Essentials
 dependencies[] = block
+dependencies[] = book
 dependencies[] = color
 dependencies[] = comment
 dependencies[] = contextual
@@ -31,7 +32,6 @@ dependencies[] = rdf
 dependencies[] = statistics
 
 ;; Optional
-;dependencies[] = book
 ;dependencies[] = contact
 ;dependencies[] = syslog
 ; Deactivate toolbar if admin_menu_toolbar is activated
@@ -49,10 +49,12 @@ dependencies[] = auto_nodetitle
 ;dependencies[] = apachesolr_attachments
 dependencies[] = biblio
 dependencies[] = biblio_bibtex
+dependencies[] = biblio_citeproc
+dependencies[] = BookMadeSimple
 dependencies[] = calendar
 ;dependencies[] = calendar_ical
 ;dependencies[] = calendar_multiday
-dependencies[] = comment_notify
+;dependencies[] = comment_notify
 ;dependencies[] = conditional_styles
 ;dependencies[] = context
 ;dependencies[] = context_ui
@@ -62,7 +64,7 @@ dependencies[] = ctools
 dependencies[] = ctools_access_ruleset
 dependencies[] = date
 dependencies[] = date_api
-dependencies[] = date_views
+;dependencies[] = date_views
 ;dependencies[] = defaultcontent
 dependencies[] = diff
 ;dependencies[] = ds
