@@ -5,7 +5,7 @@
 ; Use this file to build a full distro including Drupal core (with patches) and
 ; the AID install profile using the following command:
 ;
-;     $ drush make distro.make [directory]
+;     $ drush make --working-copy distro.make [directory]
 
 core = 7.x
 api = 2

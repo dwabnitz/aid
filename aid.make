@@ -102,8 +102,8 @@ projects[email][subdir] = contrib
 projects[field_group][version] = 1.x-dev
 projects[field_group][subdir] = contrib
 
-;projects[field_permissions][version] = 1.0-alpha1
-;projects[field_permissions][subdir] = contrib
+projects[field_permissions][version] = 1.0-alpha1
+projects[field_permissions][subdir] = contrib
 
 ;projects[file_aliases][version] = 1.x-dev
 ;projects[file_aliases][subdir] = contrib
@@ -322,13 +322,6 @@ projects[aid_extended_features][download][url] = "git://github.com/dwabnitz/aid_
 projects[aid_extended_features][version] = 1.0-dev
 projects[aid_extended_features][subdir] = features
 
-; MZES Features
-projects[mzes_features][type] = module
-projects[mzes_features][download][type] = "git"
-projects[mzes_features][download][url] = "git://github.com/mzes/mzes_features.git"
-projects[mzes_features][version] = 1.0-dev
-projects[mzes_features][subdir] = features
-
 
 ; === Features from other distributions ==============================================================================
 
@@ -362,7 +355,7 @@ projects[rubik][type] = "theme"
 ;libraries[htmlpurifier][directory_name] = "htmlpurifier"
 ;libraries[htmlpurifier][destination] = "libraries"
 
-;libraries[profiler][download][type] = "get"
-;libraries[profiler][download][url] = http://ftp.drupal.org/files/projects/profiler-7.x-2.x-dev.tar.gz
-;libraries[profiler][directory_name] = "profiler"
-;libraries[profiler][destination] = "libraries"
+libraries[profiler][download][type] = "get"
+libraries[profiler][download][url] = http://ftp.drupal.org/files/projects/profiler-7.x-2.x-dev.tar.gz
+libraries[profiler][directory_name] = "profiler"
+libraries[profiler][destination] = "libraries"
