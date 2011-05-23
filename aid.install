@@ -14,6 +14,11 @@ function aid_install() {
   
   aid_enable_admin_theme ();
 
+  // set various system variables
+  variable_set('pathauto_node_pattern', '[node:type]/[node:title]');
+  variable_set('pathauto_punctuation_underscore', '1');
+  //variable_set('statistics_count_content_views', '1');
+
 }
 
 
