@@ -99,7 +99,7 @@ projects[email][subdir] = contrib
 ;projects[entitycache][version] = 1.0-rc2
 ;projects[entitycache][subdir] = contrib
 
-projects[field_group][version] = 1.0-rc2
+projects[field_group][version] = 1.x-dev
 projects[field_group][subdir] = contrib
 
 projects[field_permissions][version] = 1.0-alpha1
