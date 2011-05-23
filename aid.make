@@ -82,8 +82,8 @@ projects[date][version] = 2.0-alpha3
 projects[date][subdir] = contrib
 
 ; Allows export of select nodes (along with attached images etc.) to a Features exportable.
-;projects[defaultcontent][version] = 1.0-alpha1
-;projects[defaultcontent][subdir] = contrib
+projects[defaultcontent][version] = 1.0-alpha1
+projects[defaultcontent][subdir] = contrib
 
 ; Allows to take full control over how content is displayed using a drag and drop interface. Add custom view modes
 ;projects[ds][version] = 1.0
@@ -99,7 +99,7 @@ projects[email][subdir] = contrib
 ;projects[entitycache][version] = 1.0-rc2
 ;projects[entitycache][subdir] = contrib
 
-projects[field_group][version] = 1.x-dev
+projects[field_group][version] = 1.0-rc2
 projects[field_group][subdir] = contrib
 
 projects[field_permissions][version] = 1.0-alpha1
@@ -111,8 +111,8 @@ projects[field_permissions][subdir] = contrib
 ;projects[filefield_paths][version] = 1.x-dev
 ;projects[filefield_paths][subdir] = contrib
 
-;projects[flag][version] = 2.0-beta5
-;projects[flag][subdir] = contrib
+projects[flag][version] = 2.0-beta5
+projects[flag][subdir] = contrib
 
 ;projects[follow][version] = 1.x-dev
 ;projects[follow][subdir] = contrib
@@ -189,7 +189,7 @@ projects[styles][version] = 2.0-alpha5
 projects[styles][subdir] = contrib
 
 ; Provides a shared API for replacement of textual placeholders with actual data.
-projects[token][version] = 1.0-beta1
+projects[token][version] = 1.0-beta2
 projects[token][subdir] = contrib
 
 ; Provides a central transliteration service to other Drupal modules, and sanitizes file names while uploading.
@@ -222,8 +222,8 @@ projects[BookMadeSimple][subdir] = contrib
 ;projects[captcha][subdir] = contrib
 
 ; syncs the node reference between two node types which have a nodereference to each other, so double editing nodes is no more needed.
-;projects[cnr][version] = 4.x-dev
-;projects[cnr][subdir] = contrib
+projects[cnr][version] = 4.x-dev
+projects[cnr][subdir] = contrib
 
 ; Currently the best light-box module
 ;projects[colorbox][version] = 1.0-beta4
