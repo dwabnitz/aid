@@ -11,7 +11,11 @@ api = 2
 ;projects[context][version] = 3.0-beta1
 ;projects[context][subdir] = contrib
 
-projects[ctools][version] = 1.0-alpha4
+projects[ctools][download][type] = module
+projects[ctools][download][type] = "git"
+projects[ctools][download][url] = "http://git.drupal.org/project/ctools.git"
+projects[ctools][download][branch] = 7.x-1.x
+projects[ctools][version] = 1.x-dev
 projects[ctools][subdir] = contrib
 
 projects[devel][version] = 1.0
@@ -20,19 +24,31 @@ projects[devel][subdir] = contrib
 projects[diff][version] = 2.0-beta2
 projects[diff][subdir] = contrib
 
-projects[features][version] = 1.0-beta2
+projects[features][download][type] = module
+projects[features][download][type] = "git"
+projects[features][download][url] = "http://git.drupal.org/project/features.git"
+projects[features][download][branch] = 7.x-1.x
+projects[features][version] = 1.x-dev
 projects[features][subdir] = contrib
 
 ;projects[openidadmin][version] = 1.0
 ;projects[openidadmin][subdir] = contrib
 
-projects[panels][version] = 3.0-alpha3
+projects[panels][download][type] = module
+projects[panels][download][type] = "git"
+projects[panels][download][url] = "http://git.drupal.org/project/panels.git"
+projects[panels][download][branch] = 7.x-3.x
+projects[panels][version] = 3.x-dev
 projects[panels][subdir] = contrib
 
 projects[strongarm][version] = 2.0-beta2
 projects[strongarm][subdir] = contrib
 
-projects[views][version] = 3.0-beta3
+projects[views][download][type] = module
+projects[views][download][type] = "git"
+projects[views][download][url] = "http://git.drupal.org/project/views.git"
+projects[views][download][branch] = 7.x-3.x
+projects[views][version] = 3.x-dev
 projects[views][subdir] = contrib
 
 ;;;;;;
@@ -82,7 +98,11 @@ projects[date][version] = 2.0-alpha3
 projects[date][subdir] = contrib
 
 ; Allows export of select nodes (along with attached images etc.) to a Features exportable.
-projects[defaultcontent][version] = 1.0-alpha1
+projects[defaultcontent][download][type] = module
+projects[defaultcontent][download][type] = "git"
+projects[defaultcontent][download][url] = "http://git.drupal.org/project/defaultcontent.git"
+projects[defaultcontent][download][branch] = 7.x-1.x
+projects[defaultcontent][version] = 1.x-dev
 projects[defaultcontent][subdir] = contrib
 
 ; Allows to take full control over how content is displayed using a drag and drop interface. Add custom view modes
@@ -189,7 +209,11 @@ projects[styles][version] = 2.0-alpha5
 projects[styles][subdir] = contrib
 
 ; Provides a shared API for replacement of textual placeholders with actual data.
-projects[token][version] = 1.0-beta2
+projects[token][download][type] = module
+projects[token][download][type] = "git"
+projects[token][download][url] = "http://git.drupal.org/project/token.git"
+projects[token][download][branch] = 7.x-1.x
+projects[token][version] = 1.x-dev
 projects[token][subdir] = contrib
 
 ; Provides a central transliteration service to other Drupal modules, and sanitizes file names while uploading.
