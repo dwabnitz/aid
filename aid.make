@@ -15,7 +15,7 @@ projects[ctools][download][type] = module
 projects[ctools][download][type] = "git"
 projects[ctools][download][url] = "http://git.drupal.org/project/ctools.git"
 projects[ctools][download][branch] = 7.x-1.x
-projects[ctools][version] = 1.x-dev
+;projects[ctools][version] = 1.x-dev
 projects[ctools][subdir] = contrib
 
 projects[devel][version] = 1.0
@@ -28,7 +28,7 @@ projects[features][download][type] = module
 projects[features][download][type] = "git"
 projects[features][download][url] = "http://git.drupal.org/project/features.git"
 projects[features][download][branch] = 7.x-1.x
-projects[features][version] = 1.x-dev
+;projects[features][version] = 1.x-dev
 projects[features][subdir] = contrib
 
 ;projects[openidadmin][version] = 1.0
@@ -38,7 +38,7 @@ projects[panels][download][type] = module
 projects[panels][download][type] = "git"
 projects[panels][download][url] = "http://git.drupal.org/project/panels.git"
 projects[panels][download][branch] = 7.x-3.x
-projects[panels][version] = 3.x-dev
+;projects[panels][version] = 3.x-dev
 projects[panels][subdir] = contrib
 
 projects[strongarm][version] = 2.0-beta2
@@ -48,7 +48,7 @@ projects[views][download][type] = module
 projects[views][download][type] = "git"
 projects[views][download][url] = "http://git.drupal.org/project/views.git"
 projects[views][download][branch] = 7.x-3.x
-projects[views][version] = 3.x-dev
+;projects[views][version] = 3.x-dev
 projects[views][subdir] = contrib
 
 ;;;;;;
@@ -82,7 +82,11 @@ projects[auto_nodetitle][subdir] = "contrib"
 ;projects[better_formats][version] = 1.x-dev
 ;projects[better_formats][subdir] = "contrib"
 
-projects[biblio][version] = 1.x-dev
+projects[biblio][download][type] = module
+projects[biblio][download][type] = "git"
+projects[biblio][download][url] = "http://git.drupal.org/project/biblio.git"
+projects[biblio][download][branch] = 7.x-1.x
+;projects[biblio][version] = 1.x-dev
 projects[biblio][subdir] = contrib
 
 ; Views plugin to display views containing dates as Calendars.
@@ -102,7 +106,7 @@ projects[defaultcontent][download][type] = module
 projects[defaultcontent][download][type] = "git"
 projects[defaultcontent][download][url] = "http://git.drupal.org/project/defaultcontent.git"
 projects[defaultcontent][download][branch] = 7.x-1.x
-projects[defaultcontent][version] = 1.x-dev
+;projects[defaultcontent][version] = 1.x-dev
 projects[defaultcontent][subdir] = contrib
 
 ; Allows to take full control over how content is displayed using a drag and drop interface. Add custom view modes
@@ -113,16 +117,20 @@ projects[defaultcontent][subdir] = contrib
 projects[email][version] = 1.0-beta1
 projects[email][subdir] = contrib
 
-;projects[entity][version] = 1.0-beta8
-;projects[entity][subdir] = contrib
+projects[entity][download][type] = module
+projects[entity][download][type] = "git"
+projects[entity][download][url] = "http://git.drupal.org/project/entity.git"
+projects[entity][download][branch] = 7.x-1.x
+;projects[entity][version] = 1.x-dev
+projects[entity][subdir] = contrib
 
 ;projects[entitycache][version] = 1.0-rc2
 ;projects[entitycache][subdir] = contrib
 
-projects[field_group][version] = 1.x-dev
+projects[field_group][version] = 1.0
 projects[field_group][subdir] = contrib
 
-projects[field_permissions][version] = 1.0-alpha1
+projects[field_permissions][version] = 1.x-dev
 projects[field_permissions][subdir] = contrib
 
 ;projects[file_aliases][version] = 1.x-dev
@@ -131,8 +139,9 @@ projects[field_permissions][subdir] = contrib
 ;projects[filefield_paths][version] = 1.x-dev
 ;projects[filefield_paths][subdir] = contrib
 
-projects[flag][version] = 2.0-beta5
-projects[flag][subdir] = contrib
+; Flag has numerous patches in issue queue! Apply them once the module is needed.
+;projects[flag][version] = 2.x-dev
+;projects[flag][subdir] = contrib
 
 ;projects[follow][version] = 1.x-dev
 ;projects[follow][subdir] = contrib
@@ -173,7 +182,7 @@ projects[multiform][subdir] = contrib
 ;projects[nodeblock][version] = 1.0
 ;projects[nodeblock][subdir] = contrib
 
-projects[nodeconnect][version] = 1.0-alpha1
+projects[nodeconnect][version] = 1.x-dev
 projects[nodeconnect][subdir] = contrib
 
 ;projects[nodequeue][version] = 2.0-alpha1
@@ -196,8 +205,12 @@ projects[plupload][subdir] = contrib
 projects[references][version] = 2.0-beta3
 projects[references][subdir] = contrib
 
-;projects[rules][version] = 2.0-beta1
-;projects[rules][subdir] = contrib
+projects[rules][download][type] = module
+projects[rules][download][type] = "git"
+projects[rules][download][url] = "http://git.drupal.org/project/rules.git"
+projects[rules][download][branch] = 7.x-2.x
+;projects[rules][version] = 2.x-dev
+projects[rules][subdir] = contrib
 
 ;projects[search_api][version] = 1.0-beta8
 ;projects[search_api][subdir] = contrib
@@ -213,7 +226,7 @@ projects[token][download][type] = module
 projects[token][download][type] = "git"
 projects[token][download][url] = "http://git.drupal.org/project/token.git"
 projects[token][download][branch] = 7.x-1.x
-projects[token][version] = 1.x-dev
+;projects[token][version] = 1.x-dev
 projects[token][subdir] = contrib
 
 ; Provides a central transliteration service to other Drupal modules, and sanitizes file names while uploading.
@@ -238,7 +251,7 @@ projects[admin_menu][subdir] = contrib
 
 ; Automatically creates a main book page for content type selected in BookMadeSimple settings. 
 ; This is a shortcut to create a node and click on update book outline.
-projects[BookMadeSimple][version] = 3.2
+projects[BookMadeSimple][version] = 3.x-dev
 projects[BookMadeSimple][subdir] = contrib
 
 ; CAPTCHA solution for web forms
@@ -279,7 +292,7 @@ projects[cnr][subdir] = contrib
 ;projects[recaptcha][version] = 1.7
 ;projects[recaptcha][subdir] = contrib
 
-;projects[relation][version] = 1.0-alpha2
+;projects[relation][version] = 1.x-dev
 ;projects[relation][subdir] = contrib
 
 ;projects[stringoverrides][version] = 1.8
@@ -334,16 +347,14 @@ projects[cnr][subdir] = contrib
 
 ; AID Base Features
 projects[aid_base_features][type] = module
-projects[aid_base_features][download][type] = "git"
-projects[aid_base_features][download][url] = "git://github.com/dwabnitz/aid_base_features.git"
-projects[aid_base_features][version] = 1.0-dev
+projects[aid_base_features][download][type] = git
+projects[aid_base_features][download][url] = git@github.com:dwabnitz/aid_base_features.git
 projects[aid_base_features][subdir] = features
 
 ; AID Extended Features
 projects[aid_extended_features][type] = module
-projects[aid_extended_features][download][type] = "git"
-projects[aid_extended_features][download][url] = "git://github.com/dwabnitz/aid_extended_features.git"
-projects[aid_extended_features][version] = 1.0-dev
+projects[aid_extended_features][download][type] = git
+projects[aid_extended_features][download][url] = git@github.com:dwabnitz/aid_extended_features.git
 projects[aid_extended_features][subdir] = features
 
 

@@ -27,4 +27,4 @@ projects[drupal][patch][995156] = http://drupal.org/files/issues/995156-5_portab
 
 projects[aid][type] = profile
 projects[aid][download][type] = git
-projects[aid][download][url] = git://github.com/dwabnitz/aid.git
+projects[aid][download][url] = git@github.com:dwabnitz/aid.git
