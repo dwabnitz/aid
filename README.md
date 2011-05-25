@@ -1,4 +1,4 @@
-## Academic Institution Distibution
+## Academic Institution Distribution
 
 ### Build
 
