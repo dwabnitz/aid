@@ -4,7 +4,7 @@
 
 Copy the `distro.make` file to your system and run with `drush make` [1][2]
 
-    $ curl -O https://github.com/dwabnitz/aid/raw/master/distro.make
+    $ curl -O https://raw.github.com/dwabnitz/aid/dev/distro.make
     $ drush make --working-copy distro.make public_html
 
 
