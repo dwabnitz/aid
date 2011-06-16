@@ -17,13 +17,6 @@ projects[devel][subdir] = contrib
 projects[diff][version] = 2.0-beta2
 projects[diff][subdir] = contrib
 
-projects[features][download][type] = module
-projects[features][download][type] = "git"
-projects[features][download][url] = "http://git.drupal.org/project/features.git"
-projects[features][download][branch] = 7.x-1.x
-;projects[features][version] = 1.x-dev
-projects[features][subdir] = contrib
-
 ;projects[openidadmin][version] = 1.0
 ;projects[openidadmin][subdir] = contrib
 
@@ -317,14 +310,14 @@ projects[ctools][download][branch] = 7.x-1.x
 projects[ctools][subdir] = contrib
 ;; Problem exporting data without a ctools "api" string - applies for stylizer exports
 ;; http://drupal.org/node/1155310
-projects[ctools][patch][1155310] = http://drupal.org/files/issues/stylizer-n1155310.patch
+projects[ctools][patch][] = "http://drupal.org/files/issues/stylizer-n1155310.patch"
 
 ; Provides exports for custom blocks and spaces integration.
 ;projects[boxes][version] = 1.0-beta3
 ;projects[boxes][subdir] = contrib
 ;; options_form() invoked without argument
 ;; http://drupal.org/node/1133116
-;projects[boxes][patch][1133116] = http://drupal.org/files/issues/options_form_called_without_arg-1133116-0_drushmake.patch
+;projects[boxes][patch][] = "http://drupal.org/files/issues/options_form_called_without_arg-1133116-0_drushmake.patch"
 
 
 projects[features][download][type] = module
@@ -335,7 +328,7 @@ projects[features][download][branch] = 7.x-1.x
 projects[features][subdir] = contrib
 ;; Feature-packages appear overridden when they are not
 ;; http://drupal.org/node/1157048
-projects[features][patch][1157048] = http://drupal.org/files/issues/features-code-generation-fail-1157048-16.patch
+projects[features][patch][] = "http://drupal.org/files/issues/features-code-generation-fail-1157048-16.patch"
 
 
 ; === Contrib projects without official releases =====================================================================
@@ -388,7 +381,7 @@ projects[rubik][subdir] = contrib
 projects[rubik][type] = "theme"
 ;; Custom CSS for latest Views 3 administration UI
 ;; http://drupal.org/node/1101086
-projects[rubik][patch][1101086] = "http://drupal.org/files/issues/views-admin-rubik-1101086-7.patch"
+projects[rubik][patch][] = "http://drupal.org/files/issues/views-admin-rubik-1101086-10.patch"
 
 
 ; === Libraries ======================================================================================================
