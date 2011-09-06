@@ -14,7 +14,7 @@ api = 2
 projects[devel][version] = 1.0
 projects[devel][subdir] = contrib
 
-projects[diff][version] = 2.0-beta2
+projects[diff][version] = 2.0
 projects[diff][subdir] = contrib
 
 ;projects[openidadmin][version] = 1.0
@@ -42,7 +42,7 @@ projects[views][subdir] = contrib
 ;;;;;;
 
 ; A field module to hold postal addresses, implementing a subset of the xNAL standard.
-projects[addressfield][version] = 1.0-alpha2
+projects[addressfield][version] = 1.0-beta2
 projects[addressfield][subdir] = contrib
 
 ; Creates AddThis button as a block, to be used in themes and to node links.
@@ -53,7 +53,7 @@ projects[advanced_help][version] = 1.0-beta1
 projects[advanced_help][subdir] = contrib
 
 ; Automatic generation of node titles according to rules (can use fields data)
-projects[auto_nodetitle][version] = 1.0-alpha1
+projects[auto_nodetitle][version] = 1.0
 projects[auto_nodetitle][subdir] = "contrib"
 
 ; Interface to advanced search frame-work Apache Lucene/Solr
@@ -76,7 +76,7 @@ projects[biblio][download][branch] = 7.x-1.x
 projects[biblio][subdir] = contrib
 
 ; Views plugin to display views containing dates as Calendars.
-projects[calendar][version] = 2.0-alpha1
+projects[calendar][version] = 3.0-alpha1
 projects[calendar][subdir] = contrib
 
 ; Notifications for comments
@@ -84,7 +84,7 @@ projects[comment_notify][version] = 1.x-dev
 projects[comment_notify][subdir] = contrib
 
 ; Date API that can be used by other modules.
-projects[date][version] = 2.0-alpha3
+projects[date][version] = 2.x-dev
 projects[date][subdir] = contrib
 
 ; Allows export of select nodes (along with attached images etc.) to a Features exportable.
@@ -100,7 +100,7 @@ projects[defaultcontent][subdir] = contrib
 ;projects[ds][subdir] = contrib
 
 ; Defines simple email field type.
-projects[email][version] = 1.0-beta1
+projects[email][version] = 1.0
 projects[email][subdir] = contrib
 
 projects[entity][download][type] = module
@@ -112,6 +112,14 @@ projects[entity][subdir] = contrib
 
 ;projects[entitycache][version] = 1.0-rc2
 ;projects[entitycache][subdir] = contrib
+
+
+projects[features][download][type] = module
+projects[features][download][type] = "git"
+projects[features][download][url] = "http://git.drupal.org/project/features.git"
+projects[features][download][branch] = 7.x-1.x
+;projects[features][version] = 1.x-dev
+projects[features][subdir] = contrib
 
 projects[field_group][version] = 1.0
 projects[field_group][subdir] = contrib
@@ -143,13 +151,13 @@ projects[libraries][subdir] = contrib
 projects[link][version] = 1.0-alpha3
 projects[link][subdir] = contrib
 
-projects[media][version] = 1.0-beta4
+projects[media][version] = 1.0-beta5
 projects[media][subdir] = contrib
 
-projects[mediaelement][version] = 1.0
+projects[mediaelement][version] = 1.1
 projects[mediaelement][subdir] = contrib
 
-projects[media_browser_plus][version] = 1.0-beta2
+projects[media_browser_plus][version] = 1.0-beta3
 projects[media_browser_plus][subdir] = contrib
 
 projects[media_flickr][version] = 1.x-dev
@@ -158,7 +166,7 @@ projects[media_flickr][subdir] = contrib
 projects[media_gallery][version] = 1.0-beta4
 projects[media_gallery][subdir] = contrib
 
-projects[media_youtube][version] = 1.0-alpha4
+projects[media_youtube][version] = 1.0-alpha5
 projects[media_youtube][subdir] = contrib
 
 projects[multiform][version] = 1.0-beta2
@@ -182,10 +190,10 @@ projects[nodeconnect][subdir] = contrib
 ;projects[page_title][subdir] = "contrib"
 
 ; Provides a mechanism for modules to automatically generate aliases for the content they manage.
-projects[pathauto][version] = 1.0-beta1
+projects[pathauto][version] = 1.0-rc2
 projects[pathauto][subdir] = contrib
 
-projects[plupload][version] = 1.0-beta2
+projects[plupload][version] = 1.0-beta3
 projects[plupload][subdir] = contrib
 
 projects[references][version] = 2.0-beta3
@@ -204,7 +212,7 @@ projects[rules][subdir] = contrib
 ;projects[securepages][version] = 1.x-dev
 ;projects[securepages][subdir] = contrib
 
-projects[styles][version] = 2.0-alpha5
+projects[styles][version] = 2.0-alpha8
 projects[styles][subdir] = contrib
 
 ; Provides a shared API for replacement of textual placeholders with actual data.
@@ -219,11 +227,14 @@ projects[token][subdir] = contrib
 ;projects[transliteration][version] = 3.0-alpha1
 ;projects[transliteration][subdir] = contrib
 
+projects[variable][version] = 1.1
+projects[variable][subdir] = contrib
+
 ;projects[views_bulk_operations][version] = 3.x-dev
 ;projects[views_bulk_operations][subdir] = contrib
 
 ; Enable the use of wysiwyg editors.
-;projects[wysiwyg][version] = 2.0
+;projects[wysiwyg][version] = 2.1
 ;projects[wysiwyg][subdir] = contrib
 
 
@@ -320,17 +331,6 @@ projects[ctools][patch][] = "http://drupal.org/files/issues/stylizer-n1155310.pa
 ;projects[boxes][patch][] = "http://drupal.org/files/issues/options_form_called_without_arg-1133116-0_drushmake.patch"
 
 
-projects[features][download][type] = module
-projects[features][download][type] = "git"
-projects[features][download][url] = "http://git.drupal.org/project/features.git"
-projects[features][download][branch] = 7.x-1.x
-;projects[features][version] = 1.x-dev
-projects[features][subdir] = contrib
-;; Feature-packages appear overridden when they are not
-;; http://drupal.org/node/1157048
-projects[features][patch][] = "http://drupal.org/files/issues/features-code-generation-fail-1157048-16.patch"
-
-
 ; === Contrib projects without official releases =====================================================================
 
 ;projects[apachesolr_biblio][version] = 1.x-dev
@@ -376,12 +376,9 @@ projects[aid_extended_features][subdir] = features
 projects[tao][version] = 3.0-beta3
 projects[tao][subdir] = contrib
 
-projects[rubik][version] = 4.0-beta5
+projects[rubik][version] = 4.0-beta6
 projects[rubik][subdir] = contrib
 projects[rubik][type] = "theme"
-;; Custom CSS for latest Views 3 administration UI
-;; http://drupal.org/node/1101086
-projects[rubik][patch][] = "http://drupal.org/files/issues/views-admin-rubik-1101086-10.patch"
 
 
 ; === Libraries ======================================================================================================
@@ -402,6 +399,6 @@ projects[rubik][patch][] = "http://drupal.org/files/issues/views-admin-rubik-110
 ;libraries[htmlpurifier][destination] = "libraries"
 
 libraries[profiler][download][type] = "get"
-libraries[profiler][download][url] = http://ftp.drupal.org/files/projects/profiler-7.x-2.x-dev.tar.gz
+libraries[profiler][download][url] = http://ftp.drupal.org/files/projects/profiler-7.x-2.0-beta1.tar.gz
 libraries[profiler][directory_name] = "profiler"
 libraries[profiler][destination] = "libraries"
