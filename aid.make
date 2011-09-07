@@ -18,7 +18,7 @@ projects[ctools][download][branch] = 7.x-1.x
 ;projects[ctools][version] = 1.x-dev
 projects[ctools][subdir] = contrib
 
-projects[devel][version] = 1.0
+projects[devel][version] = 1.2
 projects[devel][subdir] = contrib
 
 projects[diff][version] = 2.0
@@ -255,7 +255,7 @@ projects[admin_menu][subdir] = contrib
 
 ; Automatically creates a main book page for content type selected in BookMadeSimple settings. 
 ; This is a shortcut to create a node and click on update book outline.
-projects[BookMadeSimple][version] = 3.x-dev
+projects[BookMadeSimple][version] = 3.3
 projects[BookMadeSimple][subdir] = contrib
 
 ; CAPTCHA solution for web forms
