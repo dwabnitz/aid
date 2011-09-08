@@ -134,21 +134,25 @@ projects[field_group][subdir] = contrib
 projects[field_permissions][version] = 1.x-dev
 projects[field_permissions][subdir] = contrib
 
-;projects[file_aliases][version] = 1.x-dev
-;projects[file_aliases][subdir] = contrib
+projects[file_aliases][version] = 1.x-dev
+projects[file_aliases][subdir] = contrib
 
-;projects[filefield_paths][version] = 1.x-dev
-;projects[filefield_paths][subdir] = contrib
+projects[filefield_paths][version] = 1.x-dev
+projects[filefield_paths][subdir] = contrib
 
 ; Flag has numerous patches in issue queue! Apply them once the module is needed.
-;projects[flag][version] = 2.x-dev
-;projects[flag][subdir] = contrib
+projects[flag][version] = 2.x-dev
+projects[flag][subdir] = contrib
 
 ;projects[follow][version] = 1.x-dev
 ;projects[follow][subdir] = contrib
 
 ;projects[htmlpurifier][version] = 2.x-dev
 ;projects[htmlpurifier][subdir] = contrib
+
+; Drupal internationalization suite
+projects[i18n][version] = 1.0
+projects[i18n][subdir] = contrib
 
 ; Common theme library functionality.
 projects[libraries][version] = 1.0
@@ -231,8 +235,8 @@ projects[token][download][branch] = 7.x-1.x
 projects[token][subdir] = contrib
 
 ; Provides a central transliteration service to other Drupal modules, and sanitizes file names while uploading.
-;projects[transliteration][version] = 3.0-alpha1
-;projects[transliteration][subdir] = contrib
+projects[transliteration][version] = 3.0-alpha1
+projects[transliteration][subdir] = contrib
 
 projects[variable][version] = 1.1
 projects[variable][subdir] = contrib
@@ -241,8 +245,8 @@ projects[variable][subdir] = contrib
 ;projects[views_bulk_operations][subdir] = contrib
 
 ; Enable the use of wysiwyg editors.
-;projects[wysiwyg][version] = 2.1
-;projects[wysiwyg][subdir] = contrib
+projects[wysiwyg][version] = 2.1
+projects[wysiwyg][subdir] = contrib
 
 
 
@@ -299,14 +303,20 @@ projects[cnr][subdir] = contrib
 ;projects[relation][version] = 1.x-dev
 ;projects[relation][subdir] = contrib
 
-;projects[stringoverrides][version] = 1.8
-;projects[stringoverrides][subdir] = contrib
+projects[stringoverrides][version] = 1.8
+projects[stringoverrides][subdir] = contrib
+
+projects[translation_helpers][version] = 1.x-dev
+projects[translation_helpers][subdir] = contrib
+
+projects[translation_overview][version] = 2.0-beta1
+projects[translation_overview][subdir] = contrib
 
 ;projects[twitter_pull][version] = 1.0-rc1
 ;projects[twitter_pull][subdir] = contrib
 
 ; Build webforms.
-;projects[webform][version] = 3.9
+;projects[webform][version] = 3.13
 ;projects[webform][subdir] = contrib
 
 ;projects[xmlsitemap][version] = 2.0-beta2
