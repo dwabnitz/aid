@@ -77,6 +77,10 @@ projects[views][subdir] = contrib
 projects[addressfield][version] = 1.0-beta2
 projects[addressfield][subdir] = contrib
 
+; Creates AddThis button as a block, to be used in themes and to node links.
+projects[addthis][version] = 2.1-beta1
+projects[addthis][subdir] = contrib
+
 projects[advanced_help][version] = 1.0-beta1
 projects[advanced_help][subdir] = contrib
 
@@ -244,10 +248,6 @@ projects[wysiwyg][subdir] = contrib
 
 projects[admin_menu][version] = 3.x-dev
 projects[admin_menu][subdir] = contrib
-
-; Creates AddThis button as a block, to be used in themes and to node links.
-;projects[addthis][version] = 2.1-beta1
-;projects[addthis][subdir] = contrib
 
 ; Automatically creates a main book page for content type selected in BookMadeSimple settings. 
 ; This is a shortcut to create a node and click on update book outline.
