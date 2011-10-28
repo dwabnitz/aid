@@ -8,40 +8,65 @@ api = 2
 ; Site Building
 ;;;;;;
 
-;projects[context][version] = 3.0-beta1
-;projects[context][subdir] = contrib
+projects[context][version] = 3.0-beta2
+projects[context][subdir] = contrib
 
-projects[ctools][download][type] = module
-projects[ctools][download][type] = "git"
-projects[ctools][download][url] = "http://git.drupal.org/project/ctools.git"
-projects[ctools][download][branch] = 7.x-1.x
-;projects[ctools][version] = 1.x-dev
+;projects[ctools][download][type] = module
+;projects[ctools][download][type] = "git"
+;projects[ctools][download][url] = "http://git.drupal.org/project/ctools.git"
+;projects[ctools][download][branch] = 7.x-1.x
+projects[ctools][version] = 1.x-dev
 projects[ctools][subdir] = contrib
-
-projects[devel][version] = 1.2
-projects[devel][subdir] = contrib
 
 projects[diff][version] = 2.0
 projects[diff][subdir] = contrib
 
+; Allows to take full control over how content is displayed using a drag and drop interface. Add custom view modes
+projects[ds][version] = 1.x-dev
+projects[ds][subdir] = contrib
+
+;projects[entity][download][type] = module
+;projects[entity][download][type] = "git"
+;projects[entity][download][url] = "http://git.drupal.org/project/entity.git"
+;projects[entity][download][branch] = 7.x-1.x
+projects[entity][version] = 1.0-beta11
+projects[entity][subdir] = contrib
+
+projects[entitycache][version] = 1.1
+projects[entitycache][subdir] = contrib
+
+projects[features][download][type] = module
+projects[features][download][type] = "git"
+projects[features][download][url] = "http://git.drupal.org/project/features.git"
+projects[features][download][branch] = 7.x-1.x
+;projects[features][version] = 1.x-dev
+projects[features][subdir] = contrib
+
 ;projects[openidadmin][version] = 1.0
 ;projects[openidadmin][subdir] = contrib
 
-projects[panels][download][type] = module
-projects[panels][download][type] = "git"
-projects[panels][download][url] = "http://git.drupal.org/project/panels.git"
-projects[panels][download][branch] = 7.x-3.x
-;projects[panels][version] = 3.x-dev
+;projects[panels][download][type] = module
+;projects[panels][download][type] = "git"
+;projects[panels][download][url] = "http://git.drupal.org/project/panels.git"
+;projects[panels][download][branch] = 7.x-3.x
+projects[panels][version] = 3.x-dev
 projects[panels][subdir] = contrib
 
-projects[strongarm][version] = 2.0-beta2
+projects[profiler][version] = 2.x-dev
+projects[profiler][subdir] = contrib
+
+; Enables to register any piece of build on your installation and manage the display through Field UI.
+projects[rel][version] = 1.x-dev
+projects[rel][subdir] = contrib
+
+projects[strongarm][version] = 2.0-beta4
 projects[strongarm][subdir] = contrib
 
-projects[views][download][type] = module
-projects[views][download][type] = "git"
-projects[views][download][url] = "http://git.drupal.org/project/views.git"
-projects[views][download][branch] = 7.x-3.x
-;projects[views][version] = 3.x-dev
+;projects[views][download][type] = module
+;projects[views][download][type] = "git"
+;projects[views][download][url] = "http://git.drupal.org/project/views.git"
+;projects[views][download][branch] = 7.x-3.x
+projects[views][version] = 3.x-dev
 projects[views][subdir] = contrib
 
 ;;;;;;
@@ -51,10 +76,6 @@ projects[views][subdir] = contrib
 ; A field module to hold postal addresses, implementing a subset of the xNAL standard.
 projects[addressfield][version] = 1.0-beta2
 projects[addressfield][subdir] = contrib
-
-; Creates AddThis button as a block, to be used in themes and to node links.
-projects[addthis][version] = 2.1-beta1
-projects[addthis][subdir] = contrib
 
 projects[advanced_help][version] = 1.0-beta1
 projects[advanced_help][subdir] = contrib
@@ -75,11 +96,11 @@ projects[auto_nodetitle][subdir] = "contrib"
 ;projects[better_formats][version] = 1.x-dev
 ;projects[better_formats][subdir] = "contrib"
 
-projects[biblio][download][type] = module
-projects[biblio][download][type] = "git"
-projects[biblio][download][url] = "http://git.drupal.org/project/biblio.git"
-projects[biblio][download][branch] = 7.x-1.x
-;projects[biblio][version] = 1.x-dev
+;projects[biblio][download][type] = module
+;projects[biblio][download][type] = "git"
+;projects[biblio][download][url] = "http://git.drupal.org/project/biblio.git"
+;projects[biblio][download][branch] = 7.x-1.x
+projects[biblio][version] = 1.x-dev
 projects[biblio][subdir] = contrib
 
 ; Views plugin to display views containing dates as Calendars.
@@ -94,41 +115,11 @@ projects[comment_notify][subdir] = contrib
 projects[date][version] = 2.x-dev
 projects[date][subdir] = contrib
 
-; Allows export of select nodes (along with attached images etc.) to a Features exportable.
-projects[defaultcontent][download][type] = module
-projects[defaultcontent][download][type] = "git"
-projects[defaultcontent][download][url] = "http://git.drupal.org/project/defaultcontent.git"
-projects[defaultcontent][download][branch] = 7.x-1.x
-;projects[defaultcontent][version] = 1.x-dev
-projects[defaultcontent][subdir] = contrib
-
-; Allows to take full control over how content is displayed using a drag and drop interface. Add custom view modes
-;projects[ds][version] = 1.0
-;projects[ds][subdir] = contrib
-
 ; Defines simple email field type.
 projects[email][version] = 1.0
 projects[email][subdir] = contrib
 
-projects[entity][download][type] = module
-projects[entity][download][type] = "git"
-projects[entity][download][url] = "http://git.drupal.org/project/entity.git"
-projects[entity][download][branch] = 7.x-1.x
-;projects[entity][version] = 1.x-dev
-projects[entity][subdir] = contrib
-
-;projects[entitycache][version] = 1.0-rc2
-;projects[entitycache][subdir] = contrib
-
-
-projects[features][download][type] = module
-projects[features][download][type] = "git"
-projects[features][download][url] = "http://git.drupal.org/project/features.git"
-projects[features][download][branch] = 7.x-1.x
-;projects[features][version] = 1.x-dev
-projects[features][subdir] = contrib
-
-projects[field_group][version] = 1.0
+projects[field_group][version] = 1.1
 projects[field_group][subdir] = contrib
 
 projects[field_permissions][version] = 1.x-dev
@@ -144,14 +135,11 @@ projects[filefield_paths][subdir] = contrib
 projects[flag][version] = 2.x-dev
 projects[flag][subdir] = contrib
 
-;projects[follow][version] = 1.x-dev
-;projects[follow][subdir] = contrib
-
 ;projects[htmlpurifier][version] = 2.x-dev
 ;projects[htmlpurifier][subdir] = contrib
 
 ; Drupal internationalization suite
-projects[i18n][version] = 1.0
+projects[i18n][version] = 1.1
 projects[i18n][subdir] = contrib
 
 ; Common theme library functionality.
@@ -159,10 +147,10 @@ projects[libraries][version] = 1.0
 projects[libraries][subdir] = contrib
 
 ; Defines simple link field types.
-projects[link][version] = 1.0-alpha3
+projects[link][version] = 1.0
 projects[link][subdir] = contrib
 
-projects[media][version] = 1.0-beta5
+projects[media][version] = 1.0-rc2
 projects[media][subdir] = contrib
 
 projects[mediaelement][version] = 1.1
@@ -235,7 +223,7 @@ projects[token][download][branch] = 7.x-1.x
 projects[token][subdir] = contrib
 
 ; Provides a central transliteration service to other Drupal modules, and sanitizes file names while uploading.
-projects[transliteration][version] = 3.0-alpha1
+projects[transliteration][version] = 3.0
 projects[transliteration][subdir] = contrib
 
 projects[variable][version] = 1.1
@@ -256,6 +244,10 @@ projects[wysiwyg][subdir] = contrib
 
 projects[admin_menu][version] = 3.x-dev
 projects[admin_menu][subdir] = contrib
+
+; Creates AddThis button as a block, to be used in themes and to node links.
+;projects[addthis][version] = 2.1-beta1
+;projects[addthis][subdir] = contrib
 
 ; Automatically creates a main book page for content type selected in BookMadeSimple settings. 
 ; This is a shortcut to create a node and click on update book outline.
@@ -285,6 +277,9 @@ projects[cnr][subdir] = contrib
 ; Repository for advanced form elements 
 ;projects[elements][version] = 1.2
 ;projects[elements][subdir] = contrib
+
+;projects[follow][version] = 1.x-dev
+;projects[follow][subdir] = contrib
 
 ; Searches for an alias of the current URL and 301 redirects if found. Stops duplicate content arising when path
 ;projects[globalredirect][version] = 1.3
@@ -321,6 +316,21 @@ projects[translation_overview][subdir] = contrib
 
 ;projects[xmlsitemap][version] = 2.0-beta2
 ;projects[xmlsitemap][subdir] = contrib
+
+
+
+; === Developer contrib projects with official releases ==============================================================
+
+; Allows export of select nodes (along with attached images etc.) to a Features exportable.
+;projects[defaultcontent][download][type] = module
+;projects[defaultcontent][download][type] = "git"
+;projects[defaultcontent][download][url] = "http://git.drupal.org/project/defaultcontent.git"
+;projects[defaultcontent][download][branch] = 7.x-1.x
+;projects[defaultcontent][version] = 1.x-dev
+;projects[defaultcontent][subdir] = contrib
+
+projects[devel][version] = 1.2
+projects[devel][subdir] = contrib
 
 
 ; === Contrib projects not enabled (included but not enabled by default) =============================================
@@ -380,7 +390,7 @@ projects[aid_extended_features][subdir] = features
 
 ; === Themes =========================================================================================================
 
-projects[tao][version] = 3.0-beta3
+projects[tao][version] = 3.0-beta4
 projects[tao][subdir] = contrib
 
 projects[rubik][version] = 4.0-beta6
@@ -404,8 +414,3 @@ projects[rubik][type] = "theme"
 ;libraries[htmlpurifier][download][url] = "http://htmlpurifier.org/releases/htmlpurifier-4.3.0-lite.tar.gz"
 ;libraries[htmlpurifier][directory_name] = "htmlpurifier"
 ;libraries[htmlpurifier][destination] = "libraries"
-
-libraries[profiler][download][type] = "get"
-libraries[profiler][download][url] = http://ftp.drupal.org/files/projects/profiler-7.x-2.0-beta1.tar.gz
-libraries[profiler][directory_name] = "profiler"
-libraries[profiler][destination] = "libraries"

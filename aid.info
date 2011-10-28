@@ -42,7 +42,6 @@ dependencies[] = statistics
 
 ;; Essential
 dependencies[] = addressfield
-dependencies[] = addthis
 dependencies[] = advanced_help
 dependencies[] = auto_nodetitle
 ;dependencies[] = apachesolr
@@ -137,6 +136,7 @@ dependencies[] = devel_generate
 
 ;; TBD
 ;dependencies[] = admin
+;dependencies[] = addthis
 ;dependencies[] = captcha
 ;dependencies[] = recaptcha
 ;dependencies[] = elements
