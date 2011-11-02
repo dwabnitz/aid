@@ -193,7 +193,7 @@ projects[nodeconnect][subdir] = contrib
 ;projects[page_title][subdir] = "contrib"
 
 ; Provides a mechanism for modules to automatically generate aliases for the content they manage.
-projects[pathauto][version] = 1.0-rc2
+projects[pathauto][version] = 1.0
 projects[pathauto][subdir] = contrib
 
 projects[plupload][version] = 1.0-beta3
@@ -414,3 +414,9 @@ projects[rubik][type] = "theme"
 ;libraries[htmlpurifier][download][url] = "http://htmlpurifier.org/releases/htmlpurifier-4.3.0-lite.tar.gz"
 ;libraries[htmlpurifier][directory_name] = "htmlpurifier"
 ;libraries[htmlpurifier][destination] = "libraries"
+
+
+libraries[plupload][download][type] = "get"
+libraries[plupload][download][url] = "https://github.com/downloads/moxiecode/plupload/plupload_1_5_1_1.zip"
+libraries[plupload][directory_name] = "plupload"
+libraries[plupload][destination] = "libraries"
