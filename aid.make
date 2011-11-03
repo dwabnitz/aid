@@ -45,9 +45,6 @@ projects[entitycache][subdir] = contrib
 projects[panels][version] = 3.x-dev
 projects[panels][subdir] = contrib
 
-projects[profiler][version] = 2.x-dev
-projects[profiler][subdir] = contrib
-
 ; Enables to register any piece of build on your installation and manage the display through Field UI.
 projects[rel][version] = 1.x-dev
 projects[rel][subdir] = contrib
@@ -425,3 +422,9 @@ libraries[plupload][download][type] = "get"
 libraries[plupload][download][url] = "https://github.com/downloads/moxiecode/plupload/plupload_1_5_1_1.zip"
 libraries[plupload][directory_name] = "plupload"
 libraries[plupload][destination] = "libraries"
+
+
+libraries[profiler][download][type] = "get"
+libraries[profiler][download][url] = http://ftp.drupal.org/files/projects/profiler-7.x-2.0-beta1.tar.gz
+libraries[profiler][directory_name] = "profiler"
+libraries[profiler][destination] = "libraries"
