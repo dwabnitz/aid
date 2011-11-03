@@ -165,7 +165,7 @@ dependencies[] = aid_extended_event
 dependencies[] = aid_extended_media_coverage
 dependencies[] = aid_extended_profile
 dependencies[] = aid_extended_project
-dependencies[] = aid_defaults
+;dependencies[] = aid_defaults
 
 ; Files
 files[] = aid.profile
