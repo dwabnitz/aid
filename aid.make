@@ -316,8 +316,8 @@ projects[translation_overview][subdir] = contrib
 ;projects[defaultcontent][download][type] = "git"
 ;projects[defaultcontent][download][url] = "http://git.drupal.org/project/defaultcontent.git"
 ;projects[defaultcontent][download][branch] = 7.x-1.x
-;projects[defaultcontent][version] = 1.x-dev
-;projects[defaultcontent][subdir] = contrib
+projects[defaultcontent][version] = 1.x-dev
+projects[defaultcontent][subdir] = contrib
 
 projects[devel][version] = 1.2
 projects[devel][subdir] = contrib
