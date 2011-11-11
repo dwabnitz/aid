@@ -35,6 +35,13 @@ projects[entity][subdir] = contrib
 projects[entitycache][version] = 1.1
 projects[entitycache][subdir] = contrib
 
+projects[features][download][type] = module
+projects[features][download][type] = "git"
+projects[features][download][url] = "http://git.drupal.org/project/features.git"
+projects[features][download][branch] = 7.x-1.x
+;projects[features][version] = 1.x-dev
+projects[features][subdir] = contrib
+
 ;projects[openidadmin][version] = 1.0
 ;projects[openidadmin][subdir] = contrib
 
@@ -337,17 +344,6 @@ projects[devel][subdir] = contrib
 ;; http://drupal.org/node/1133116
 ;projects[boxes][patch][] = "http://drupal.org/files/issues/options_form_called_without_arg-1133116-0_drushmake.patch"
 
-
-
-projects[features][download][type] = module
-projects[features][download][type] = "git"
-projects[features][download][url] = "http://git.drupal.org/project/features.git"
-projects[features][download][branch] = 7.x-1.x
-;projects[features][version] = 1.x-dev
-projects[features][subdir] = contrib
-;; Multiple features and strongarm conflicts
-;; http://drupal.org/node/904558
-projects[features][patch][] = "http://drupal.org/files/904558_features_multiple_conflicts_28.patch"
 
 
 ; === Contrib projects without official releases =====================================================================
