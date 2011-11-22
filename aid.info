@@ -152,19 +152,16 @@ dependencies[] = devel_generate
 
 
 ; Features
-dependencies[] = aid_basic_event
-dependencies[] = aid_basic_featured_content
-dependencies[] = aid_basic_media_coverage
-dependencies[] = aid_basic_news_item
-dependencies[] = aid_basic_page
-dependencies[] = aid_basic_press_release
-dependencies[] = aid_basic_profile
-;dependencies[] = aid_basic_research_program
-dependencies[] = aid_extended_biblio
-dependencies[] = aid_extended_event
-dependencies[] = aid_extended_media_coverage
-dependencies[] = aid_extended_profile
-dependencies[] = aid_extended_project
+dependencies[] = aid_foundation
+dependencies[] = aid_event
+dependencies[] = aid_featured_content
+dependencies[] = aid_media_coverage
+dependencies[] = aid_news_item
+dependencies[] = aid_page
+dependencies[] = aid_press_release
+dependencies[] = aid_profile
+;dependencies[] = aid_research_program
+dependencies[] = aid_publication
 dependencies[] = aid_defaults
 
 ; Files
