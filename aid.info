@@ -159,6 +159,7 @@ dependencies[] = aid_media_coverage
 dependencies[] = aid_news_item
 dependencies[] = aid_page
 dependencies[] = aid_press_release
+dependencies[] = aid_project
 dependencies[] = aid_profile
 ;dependencies[] = aid_research_program
 dependencies[] = aid_publication
