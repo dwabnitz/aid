@@ -212,7 +212,7 @@ projects[token][subdir] = contrib
 projects[admin_menu][version] = 3.x-dev
 projects[admin_menu][subdir] = contrib
 
-; Automatically creates a main book page for content type selected in BookMadeSimple settings. 
+; Automatically creates a main book page for content type selected in BookMadeSimple settings.
 ; This is a shortcut to create a node and click on update book outline.
 projects[BookMadeSimple][version] = 3.2
 projects[BookMadeSimple][subdir] = contrib
@@ -237,7 +237,7 @@ projects[cnr][subdir] = contrib
 ;projects[context_admin][version] = 1.0-rc2
 ;projects[context_admin][subdir] = contrib
 
-; Repository for advanced form elements 
+; Repository for advanced form elements
 ;projects[elements][version] = 1.2
 ;projects[elements][subdir] = contrib
 
