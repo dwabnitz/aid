@@ -11,7 +11,7 @@ function aid_install() {
 
   // Allow visitor account creation with administrative approval.
   variable_set('user_register', USER_REGISTER_VISITORS_ADMINISTRATIVE_APPROVAL);
-  
+
   aid_enable_admin_theme ();
 
   // set various system variables
@@ -98,7 +98,7 @@ function aid_add_default_text_formats_and_perms() {
   );
   $full_html_format = (object) $full_html_format;
   filter_format_save($full_html_format);
-  
+
   // Enable default permissions for system roles.
   $filtered_html_permission = filter_permission_name($filtered_html_format);
   user_role_grant_permissions(DRUPAL_ANONYMOUS_RID, array('access content', 'access comments', $filtered_html_permission));
@@ -120,8 +120,8 @@ function aid_add_default_text_formats_and_perms() {
 }
 
 // /**
-//  * Helper function to pre-configure Secure Pages settings. It 
-//  * checks to see if the module exists, and then checks to make 
+//  * Helper function to pre-configure Secure Pages settings. It
+//  * checks to see if the module exists, and then checks to make
 //  * sure that SSL is configured for this server. If so, then it
 //  * sets the appropriate default system variables.
 //  */
@@ -140,12 +140,12 @@ function aid_add_default_text_formats_and_perms() {
 //     }
 //   }
 // }
-// 
+//
 // function aid_configure_commentnotify() {
 //   $content_types = array_combine(array_keys(node_type_get_types()), array_keys(node_type_get_types()));
 //   variable_set('comment_notify_node_types', $content_types);
 // }
-// 
+//
 // function aid_install_tasks() {
 //   $task['secure_pages'] = array(
 //     'display_name' => st('Install configurations for Secure Pages'),
@@ -167,7 +167,7 @@ function aid_add_default_text_formats_and_perms() {
 /**
 * A trick to enforce page refresh when theme is changed from an overlay. Courtesy of OpenPublic Distro.
 */
-function aid_admin_paths_alter(&$paths) {  
+function aid_admin_paths_alter(&$paths) {
   $paths['admin/appearance/default*'] = FALSE;
 }
 
